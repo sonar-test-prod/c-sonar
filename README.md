@@ -10,7 +10,7 @@
 This is the OpenVAS Scanner of the Greenbone Community Edition.
 
 It is used for the Greenbone Enterprise appliances and is a full-featured
-scan engine that executes a continuously updated and extended feed of
+scan engine that executes a continuously updated and extended feed oftest
 Vulnerability Tests (VTs).
 
 ## Releases
