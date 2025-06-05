@@ -4,6 +4,7 @@
 
 cmake_minimum_required (VERSION 3.0)
 
+
 message ("-- Configuring the Scanner...")
 
 # VERSION: Always include major, minor and patch level.
