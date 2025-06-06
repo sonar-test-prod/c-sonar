@@ -166,3 +166,9 @@ bpf_close (int bpf)
   pcap_close (pcaps[bpf]);
   pcaps[bpf] = NULL;
 }
+// Vulnerable function for SonarQube test purposes
+void insecure_copy(const char *input) {
+    char buffer[16];
+    // Intentional buffer overflow vulnerability
+    strcpy(buffer, input); // Noncompliant: unsafe function usage
+}
